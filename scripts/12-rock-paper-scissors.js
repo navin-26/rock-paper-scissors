@@ -159,17 +159,5 @@ computerMove = 'Scissors';
 return computerMove;
 
 }
-setInterval(function(){
-document.querySelector('.title').style="font-size:30px ; font-weight: bold; color:darkgoldenrod;"},600);
-setInterval(function(){
-    document.querySelector('.title').style="font-size:30px ; font-weight: bold; color:violet;"},800);
-    setInterval(function(){
-        document.querySelector('.title').style="font-size:30px ; font-weight: bold; color:silver;"},1000);
-        setInterval(function(){
-            document.querySelector('.title').style="font-size:30px ; font-weight: bold; color:red;"},1200);
-            setInterval(function(){
-                document.querySelector('.title').style="font-size:30px ; font-weight: bold; color:seagreen;"},1400);
-                setInterval(function(){
-                    document.querySelector('.title').style="font-size:30px ; font-weight: bold; color: indigo;"},1600);
-                setInterval(function(){
-                    document.querySelector('.title').style="font-size:30px ; font-weight: bold; color: limegreen;"},1800);
+
+   

@@ -5,15 +5,18 @@
     Rock Paper Scissors
 </title>
 <link rel="stylesheet" href="styles/12-rps.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+</style>
     </head>
     <body> 
 
+<div class="rps">
 
-
-       <p class="title">
+       <p class="title head">
         Rock Paper Scissors
        </p>
- 
+ <div class="rps-button">
        <button class="emoji-button js-rock-button">
        <img src="images-rps/Rock.png" class="emoji">
        
@@ -28,7 +31,7 @@
        <button class="emoji-button js-scissors-button">
       <img src="images-rps/Scissors.png" class="emoji">
        </button>
-
+</div>
        <p class="result"></p>
        <p class="moves">
        </p>
@@ -40,14 +43,15 @@ score.losses=0;
 score.ties=0;
 localStorage.removeItem('score');
 updateScore();
-" class="reset">
+" class="reset resetBtn">
     Reset Score
 </button>
 
 <button class="reset auto" onclick="
 autoplay();
 ">Auto Play</button>
-       
+       </div>
+
         <script src="scripts/12-rock-paper-scissors.js"> </script>
     </body>
 </html>
